@@ -38,7 +38,6 @@ Console.ReadLine();
 ## Usage - Version 1.0.7? (After but #152 solved) !!!
 
 ```cs
-
 public void Connect()
 {
 	_socket = IO.Socket(_url);
@@ -103,6 +102,7 @@ public void Disconnect()
 {
 	_socket?.Disconnect();
 }
+```
 
 More examples can be found in [unit tests](https://github.com/Quobject/SocketIoClientDotNet/blob/master/Src/SocketIoClientDotNet.Tests.net45/ClientTests/ServerConnectionTest.cs) acting against the [test server](https://github.com/Quobject/SocketIoClientDotNet/blob/master/TestServer/server.js).
 
