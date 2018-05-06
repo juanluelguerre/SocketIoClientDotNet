@@ -35,7 +35,7 @@ socket.On("hi", (data) =>
 	});
 Console.ReadLine();
 ```
-## Usage - Version 1.0.7? (After but #152 solved) !!!
+## Usage - Version 1.0.7? (After bug #152 solved) !!!
 
 ```cs
 public void Connect()
