@@ -2,7 +2,7 @@
 
 Here, in this folder, you can find some releases just to test/check on NetCore (2.0 and 2.1)
 
-## Usage - Version 1.0.7? (After but #152 solved) !!!
+## Usage - Version 1.0.7? (After bug #152 solved) !!!
 
 ```cs
 public void Connect()
